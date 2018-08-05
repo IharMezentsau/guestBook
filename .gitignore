@@ -1,6 +1,6 @@
 lib/node_modules/
 lib/package-lock.json
-img/img/
+img/img/*
 .idea/
 .git/
-xls/
+xls/*
