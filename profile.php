@@ -36,6 +36,10 @@
 
             // Пути загрузки файлов
             $path = 'img/ava/';
+            if (!file_exists($path)) {
+                mkdir($path);
+            };
+
             $tmp_path = 'tmp/';
             // Массив допустимых значений типа файла
             $types = array('image/gif', 'image/png', 'image/jpeg', 'image/jpg');

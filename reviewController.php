@@ -8,6 +8,10 @@ include_once ('class/Db.php');
 $DB = new Db();
 $dataBase = $DB->getDb();
 
+if (!file_exists('img/img')) {
+    mkdir('img/img');
+};
+
 switch ($_SERVER['REQUEST_METHOD']){
     case 'POST':
 

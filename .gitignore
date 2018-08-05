@@ -1,5 +1,6 @@
 lib/node_modules/
 lib/package-lock.json
+img/ava/*
 img/img/*
 .idea/
 .git/

@@ -12,6 +12,10 @@ $dataBase = $DB->getDb();
 $user = new UserDao($dataBase);
 $dataUser = $user->getById($_SESSION['user_id']);
 
+if (!file_exists('xls/')) {
+    mkdir('xls/');
+};
+
 if (isset($_SESSION['user_id']) & ($dataUser->admin == true)){
 
     $dateXls = date("Y_m_d_H_i_s");
