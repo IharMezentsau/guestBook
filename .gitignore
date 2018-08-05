@@ -1,0 +1,6 @@
+lib/node_modules/
+lib/package-lock.json
+img/img/
+.idea/
+.git/
+xls/

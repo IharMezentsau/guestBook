@@ -1,0 +1,5 @@
+
+.breadcrumb > li + li: before{
+    content: "\f30b";
+    font-family: 'Font Awesome 5 Free';
+}
